@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: 06e664bfd7ed04840952ff52c57ddf46
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue monster_0
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 586
+        width: 150
+        height: 199
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030634435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3ca95a15bb92c44a66ffdbf7d9caba
+      internalID: 111046363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_1
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 686
+        width: 68
+        height: 61
+      alignment: 9
+      pivot: {x: 0.6718642, y: 0.8256976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be86645d581e70147a6caa4140b1058f
+      internalID: 317382405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_2
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 718
+        width: 68
+        height: 53
+      alignment: 9
+      pivot: {x: 0.36250755, y: 0.7646058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593a77d17ac2e85419f5bdd427f89d48
+      internalID: 588116241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 550
+        width: 79
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8969572, y: 0.83896774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c93bf32328af64cb915f95e96aae69
+      internalID: -1317056329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_4
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 358
+        width: 47
+        height: 201
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6046578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f36d35a578bf724d8d2e6fee127eb65
+      internalID: 1413856042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_5
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 555
+        width: 74
+        height: 60
+      alignment: 9
+      pivot: {x: 0.15255408, y: 0.8311259}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2b5b60d58600b4089ac4bde1ac5f45
+      internalID: -707491136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_6
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 418
+        width: 25
+        height: 97
+      alignment: 9
+      pivot: {x: 0.70420164, y: 0.8834433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e249e229e3c224f8dd1a1993504aff
+      internalID: -241147215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_7
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 431
+        width: 26
+        height: 85
+      alignment: 9
+      pivot: {x: 0.36514986, y: 0.85747826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbcc98b88c7e914cafb3a5811b5aa5e
+      internalID: -140885788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_8
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 229
+        width: 63
+        height: 122
+      alignment: 9
+      pivot: {x: 0.66695344, y: 0.8544354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4312ae58fd021f498a9bc6a6bde1d26
+      internalID: 2129255311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster_9
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 229
+        width: 57
+        height: 119
+      alignment: 9
+      pivot: {x: 0.41798696, y: 0.8535505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6585c0537c8bbbe4691f56d43154e288
+      internalID: -1447157980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      blue monster_0: 111046363
+      blue monster_1: 317382405
+      blue monster_2: 588116241
+      blue monster_3: -1317056329
+      blue monster_4: 1413856042
+      blue monster_5: -707491136
+      blue monster_6: -241147215
+      blue monster_7: -140885788
+      blue monster_8: 2129255311
+      blue monster_9: -1447157980
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
