@@ -9,4 +9,8 @@ De game word steeds leuker hoe meer je speelt omdat er bij elk level andere lied
 
 ![Level 1](https://github.com/christiaanoostwouder/singing-attack/assets/117080893/f2f87f3a-6d44-450b-8c41-6abd91e43f75)
 
+# Github
+https://github.com/christiaanoostwouder/singing-attack.git
 
+# Trello bord
+https://trello.com/b/AH1mIHOh/singing-attack
