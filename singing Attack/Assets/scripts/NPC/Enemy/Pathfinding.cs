@@ -1,35 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
 public class Pathfinding : MonoBehaviour
 {
-    public Transform[] Waypoint;
-    public float MoveSpeed;
-    int WaypointIndex = 0;
-    void Start()
+    [SerializeField] private float speed = 1;
+    [SerializeField] private int nextWaypointIndex = 1;
+    [SerializeField] private float reachedWaypointIndex = 0.25f;
+    [SerializeField] private Path path;
+    private void Start()
     {
-       transform.position = Waypoint[WaypointIndex].transform.position;
+        transform.position = path.waypoints[0].position;
+        Awake();
     }
 
-    void Update()
+    private void Update()
     {
-        Move();
+        transform.position = Vector3.MoveTowards(transform.position, path.waypoints[nextWaypointIndex].position, Time.deltaTime * speed);
+        if (Vector3.Distance(transform.position, path.waypoints[nextWaypointIndex].position) <= reachedWaypointIndex )
+        {
+            nextWaypointIndex= nextWaypointIndex + 1;
+        }
+        if(nextWaypointIndex >= path.waypoints.Length)
+        {
+            nextWaypointIndex = 0;
+        }
     }
 
-    void Move()
+    private void Awake()
     {
-        transform.position = Vector2.MoveTowards(transform.position, Waypoint[WaypointIndex].transform.position, MoveSpeed * Time.deltaTime);
-
-        if(transform.position == Waypoint[WaypointIndex].transform.position)
-        {
-            WaypointIndex = WaypointIndex + 1;
-        }
-        
-        if(WaypointIndex == Waypoint.Length)
-        {
-            Destroy(gameObject);
-        }
+        path = FindAnyObjectByType<Path>();
     }
 }

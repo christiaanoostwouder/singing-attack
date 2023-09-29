@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2045967779211955106, guid: c205328d7a26e47408364939cdf089f9, type: 3}
       propertyPath: m_Name
-      value: Blue_Monster_moving
+      value: Blue_Monster_moving Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2045967779211955116, guid: c205328d7a26e47408364939cdf089f9, type: 3}
       propertyPath: m_RootOrder
@@ -133,10 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c30f38738201bf546bf4039c80a50653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Waypoint:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  MoveSpeed: 2
+  speed: 5
+  nextWaypointIndex: 1
+  reachedWaypointIndex: 0.25
+  path: {fileID: 0}
