@@ -26,6 +26,7 @@ public class Pathfinding : MonoBehaviour
         if(nextWaypointIndex >= path.waypoints.Length)
         {
             nextWaypointIndex = 0;
+            Destroy(gameObject);
         }
     }
 
