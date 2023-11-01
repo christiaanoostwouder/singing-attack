@@ -12,6 +12,10 @@ De game word steeds leuker hoe meer je speelt omdat er bij elk level andere lied
 # Mappen structuur
  video to big
 
+# Codebase
+![image](https://github.com/christiaanoostwouder/singing-attack/assets/117080893/c92b12f9-6937-47be-81b4-cfe236068080)
+
+
 # Github
 https://github.com/christiaanoostwouder/singing-attack.git
 
