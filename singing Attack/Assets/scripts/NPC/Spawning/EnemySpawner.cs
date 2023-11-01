@@ -6,8 +6,10 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject enemyPrefab;
     
+    
     void Start()
     {
+        
         StartCoroutine(SpawnEnemy());
     }
 
